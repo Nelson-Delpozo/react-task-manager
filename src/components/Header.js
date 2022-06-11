@@ -1,10 +1,13 @@
+import Button from "./Button";
+
 const Header = () => {
 
     return (
 
 
-        <header>
+        <header className="header">
             <h1>Task Tracker</h1>
+            <Button color="blue" text="Add" />
         </header>
     )
 
