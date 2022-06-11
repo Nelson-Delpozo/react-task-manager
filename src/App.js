@@ -1,8 +1,10 @@
+import Header from "./components/Header";
+
 function App() {
+
   return (
-    <div className="App">
-      <h1>This is the task tracker</h1>
-        <h2>second header</h2>
+    <div className="container">
+      <Header />
     </div>
   );
 }
